@@ -17,7 +17,9 @@ html, body {
 }
 
 .container {
-	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 	width: 1275px;
 	height: 1275px;
 	background-color: #df8e;
@@ -50,6 +52,7 @@ html, body {
 
 .black {
 	background-color: #000;
+	opacity: 0.6;
 }
 
 .position-letter {
@@ -60,6 +63,10 @@ html, body {
 .position-number {
 	display: inline-block;
 	padding-top: 60px;
+}
+
+.checker {
+	width: 100%;
 }
 
 .column-a {
